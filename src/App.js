@@ -1,5 +1,5 @@
 import { ThemeProvider } from "styled-components";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { darkTheme, lightTheme } from './utils/Themes.js'
 import Navbar from "./components/Navbar";
 import './App.css';
@@ -30,6 +30,7 @@ const Wrapper = styled.div`
 //contact not working
 
 function App() {
+  // eslint-disable-next-line
   const [darkMode, setDarkMode] = useState(true);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
   console.log(openModal)

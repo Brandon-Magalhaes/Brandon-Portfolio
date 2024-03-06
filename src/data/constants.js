@@ -1,12 +1,13 @@
-import dromedevLogo from '/home/brand/Websites/React/Portfolio-Brandon/src/images/DromedevLogo.jpeg'
-import simonsenLogo from '/home/brand/Websites/React/Portfolio-Brandon/src/images/SimonsenLogo.jpg'
-import arrayMethods from '/home/brand/Websites/React/Portfolio-Brandon/src/images/ArrayMethods.png'
-import marketPlace from '/home/brand/Websites/React/Portfolio-Brandon/src/images/MarketPlace.png'
-import wordGame from '/home/brand/Websites/React/Portfolio-Brandon/src/images/JogoDePalavras.png'
-import counterOfLaps from '/home/brand/Websites/React/Portfolio-Brandon/src/images/ContadorDeVoltas.png'
-import letreco from '/home/brand/Websites/React/Portfolio-Brandon/src/images/Letreco.png'
-import pokedex from '/home/brand/Websites/React/Portfolio-Brandon/src/images/Pokedex.png'
-import toDoList from '/home/brand/Websites/React/Portfolio-Brandon/src/images/TODOList.png'
+import dromedevLogo from '/home/brand/Websites/React/Portfolio-Brandon/Brandon-Portfolio/src/images/DromedevLogo.jpeg'
+import simonsenLogo from '/home/brand/Websites/React/Portfolio-Brandon/Brandon-Portfolio/src/images/SimonsenLogo.jpg'
+import arrayMethods from '/home/brand/Websites/React/Portfolio-Brandon/Brandon-Portfolio/src/images/ArrayMethods.png'
+import marketPlace from '/home/brand/Websites/React/Portfolio-Brandon/Brandon-Portfolio/src/images/MarketPlace.png'
+import wordGame from '/home/brand/Websites/React/Portfolio-Brandon/Brandon-Portfolio/src/images/JogoDePalavras.png'
+import counterOfLaps from '/home/brand/Websites/React/Portfolio-Brandon/Brandon-Portfolio/src/images/ContadorDeVoltas.png'
+import letreco from '/home/brand/Websites/React/Portfolio-Brandon/Brandon-Portfolio/src/images/Letreco.png'
+import pokedex from '/home/brand/Websites/React/Portfolio-Brandon/Brandon-Portfolio/src/images/Pokedex.png'
+import toDoList from '/home/brand/Websites/React/Portfolio-Brandon/Brandon-Portfolio/src/images/TODOList.png'
+import marioJump from '/home/brand/Websites/React/Portfolio-Brandon/Brandon-Portfolio/src/images/MarioJump.png'
 
 export const Bio = {
   name: "Brandon Magalhães",
@@ -231,6 +232,18 @@ export const projects = [
   },
   {
     id: 5,
+    title: "Mario Jump",
+    description:
+      "I developed the Mario Jump game, an interactive application where players take control of the Mario character and must jump from a green tube. The challenge is to avoid contact with the tubes, as such contact results in the player's defeat.",
+    image:
+      marioJump,
+    tags: ["JavaScript","Html", "Css"],
+    category: "web app",
+    github: "https://github.com/Brandon-Magalhaes/Mario-Jump",
+    webapp: "https://mario-jump-brandon.netlify.app/",
+  },
+  {
+    id: 6,
     title: "TODO LIST",
     description:
       "I developed the Mario Jump game, an interactive application where players take control of the Mario character and must jump from a green tube. The challenge is to avoid contact with the tubes, as such contact results in the player's defeat.",
@@ -242,7 +255,7 @@ export const projects = [
     webapp: "https://todolist-brandon.netlify.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Arrays Methods",
     // date: "",
     description:

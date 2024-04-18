@@ -23,6 +23,7 @@ export const Bio = {
   github: "https://github.com/Brandon-Magalhaes",
   resume:
     "https://drive.google.com/file/d/18lZZzbuqpP8N30OYqBv0UIL79p7g3XG4/view",
+
   linkedin: "https://www.linkedin.com/in/brandon-magalh%C3%A3es-938083240/",
   twitter: "https://twitter.com/BrandonMSouza",
   insta: "https://www.instagram.com/brandondbz/?hl=pt",

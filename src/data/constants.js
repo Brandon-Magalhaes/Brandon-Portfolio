@@ -3,11 +3,12 @@ import simonsenLogo from "/home/brand/websites/react/porfoliobrandon/src/images/
 import arrayMethods from "/home/brand/websites/react/porfoliobrandon/src/images/ArrayMethods.png";
 import marketPlace from "/home/brand/websites/react/porfoliobrandon/src/images/MarketPlace.png";
 import wordGame from "/home/brand/websites/react/porfoliobrandon/src/images/JogoDePalavras.png";
-import counterOfLaps from "/home/brand/websites/react/porfoliobrandon/src/images/ContadorDeVoltas.png";
+// import counterOfLaps from "/home/brand/websites/react/porfoliobrandon/src/images/ContadorDeVoltas.png";
 import letreco from "/home/brand/websites/react/porfoliobrandon/src/images/Letreco.png";
 import pokedex from "/home/brand/websites/react/porfoliobrandon/src/images/Pokedex.png";
 import toDoList from "/home/brand/websites/react/porfoliobrandon/src/images/TODOList.png";
 import marioJump from "/home/brand/websites/react/porfoliobrandon/src/images/MarioJump.png";
+import catalogProduct from "/home/brand/websites/react/porfoliobrandon/src/images/catalogProduct.png";
 
 export const Bio = {
   name: "Brandon Magalhães",
@@ -176,6 +177,17 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "Product Catalog",
+    description:
+      "I developed the Product Catalog project as part of a technical test to join a company. This project, created with Next.js, aims to demonstrate my skills in modern frontend technologies. The Product Catalog is an interactive product catalog integrated with a public API, where users can view a list of products, search by name, and access the details of each product. The application uses Tailwind CSS for responsive styling and React Icons for icons, highlighting my commitment to creating attractive and functional user interfaces. This project reflects my dedication to continuous learning and the pursuit of excellence in web application development.",
+    image: catalogProduct,
+    tags: ["React", "Next", "Tailwind", "NodeJS"],
+    category: "web app",
+    github: "https://github.com/Brandon-Magalhaes/Product-Catalog",
+    webapp: "https://product-catalog-brandon.netlify.app",
+  },
+  {
+    id: 1,
     title: "MarketPlace",
     description:
       "I developed a project in Next.js, called Marketplace, with the purpose of improving my skills in this technology. This project involves creating an interactive website, integrated with an API, in which users have the ability to select products and add them to a virtual cart. Although still in progress, this initiative demonstrates my commitment to continuous learning and the pursuit of excellence in web application development.",
@@ -186,7 +198,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 1,
+    id: 2,
     title: "Word Game",
     description:
       "I developed a word guessing game, in which players must correctly guess the letters of a word, while being penalized for each mistake made until they reach a predefined limit. In the game, players accumulate points by matching all the letters in a word, with the score being added progressively.",
@@ -196,17 +208,17 @@ export const projects = [
     github: "https://github.com/Brandon-Magalhaes/Secret_Word_React",
     webapp: "https://word-game-brandon.netlify.app/",
   },
-  {
-    id: 2,
-    title: "Counter of laps",
-    description:
-      "During my first steps in development with React, I created a turns counter as an initial project. This initiative aimed to understand and acquire the main features of React, including the use of useState states, hooks and props. Through this project, I explored fundamental library concepts in a practical way, consolidating my understanding of its structure and functionalities. This experience was crucial for building a solid foundation in React, preparing me for more advanced projects and future challenges in web development.",
-    image: counterOfLaps,
-    tags: ["React", "Html", "Css", "JavaScript"],
-    category: "web app",
-    github: "https://github.com/Brandon-Magalhaes/Contador-voltas-react",
-    webapp: "https://contadorvoltas-brandon.netlify.app/",
-  },
+  // {
+  //   id: 2,
+  //   title: "MERN Book Storage",
+  //   description:
+  //     "This MERN Online Livraria project is a backend-focused application that allows users to manage their book collection efficiently using MongoDB, Express, React and Node.js. With CRUD features, users can add, edit, delete and view information about each book, including book name, author name and year of publication, and can save everything to the database.",
+  //   image: counterOfLaps,
+  //   tags: ["NodeJS", "React", "Express", "JavaScript", "Cors", "MongoDB"],
+  //   category: "web app",
+  //   github: "https://github.com/Brandon-Magalhaes/MERN-Book-Store",
+  //   webapp: "https://contadorvoltas-brandon.netlify.app/",
+  // },
   {
     id: 3,
     title: "LETRECO",

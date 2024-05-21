@@ -1,14 +1,14 @@
-import dromedevLogo from "/home/brand/websites/react/porfoliobrandon/src/images/DromedevLogo.jpeg";
-import simonsenLogo from "/home/brand/websites/react/porfoliobrandon/src/images/SimonsenLogo.jpg";
-import arrayMethods from "/home/brand/websites/react/porfoliobrandon/src/images/ArrayMethods.png";
-import marketPlace from "/home/brand/websites/react/porfoliobrandon/src/images/MarketPlace.png";
-import wordGame from "/home/brand/websites/react/porfoliobrandon/src/images/JogoDePalavras.png";
+import dromedevLogo from "../images/DromedevLogo.jpeg";
+import simonsenLogo from "../images/SimonsenLogo.jpg";
+import arrayMethods from "../images/ArrayMethods.png";
+import marketPlace from "../images/MarketPlace.png";
+import wordGame from "../images/JogoDePalavras.png";
 // import counterOfLaps from "/home/brand/websites/react/porfoliobrandon/src/images/ContadorDeVoltas.png";
-import letreco from "/home/brand/websites/react/porfoliobrandon/src/images/Letreco.png";
-import pokedex from "/home/brand/websites/react/porfoliobrandon/src/images/Pokedex.png";
-import toDoList from "/home/brand/websites/react/porfoliobrandon/src/images/TODOList.png";
-import marioJump from "/home/brand/websites/react/porfoliobrandon/src/images/MarioJump.png";
-import catalogProduct from "/home/brand/websites/react/porfoliobrandon/src/images/catalogProduct.png";
+import letreco from "../images/Letreco.png";
+import pokedex from "../images/Pokedex.png";
+import toDoList from "../images/TODOList.png";
+import marioJump from "../images/MarioJump.png";
+import catalogProduct from "../images/catalogProduct.png";
 
 export const Bio = {
   name: "Brandon Magalhães",

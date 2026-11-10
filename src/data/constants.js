@@ -183,7 +183,7 @@ export const projects = [
     image: albionTracker,
     tags: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
     category: "web app",
-    github: "https://github.com/Brandon-Magalhaes/albion-api",
+    github: "https://github.com/Brandon-Magalhaes/albion-tracker",
     webapp: "https://albion-tracker.vercel.app",
   },
   {
@@ -216,7 +216,7 @@ export const projects = [
     image: bookStore,
     tags: ["React", "Node.js", "Express", "MongoDB"],
     category: "web app",
-    github: "https://github.com/Brandon-Magalhaes/MERN-Book-Store",
+    github: "https://github.com/Brandon-Magalhaes/book-store-mern",
     webapp: "",
   },
   {

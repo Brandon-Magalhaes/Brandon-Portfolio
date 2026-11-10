@@ -9,6 +9,8 @@ import pokedex from "../images/Pokedex.png";
 import toDoList from "../images/TODOList.png";
 import marioJump from "../images/MarioJump.png";
 import catalogProduct from "../images/catalogProduct.png";
+import albionTracker from "../images/AlbionTracker.png";
+import bookStore from "../images/BookStore.png";
 
 export const Bio = {
   name: "Brandon Magalhães",
@@ -177,116 +179,90 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "Albion Tracker",
+    description:
+      "Web app built with Next.js and TypeScript to explore public Albion Online data: player search, a global feed of PvP events, and a detail page for each event with participants, builds, weapons and zones. The API routes inside the app wrap the game's public API instead of calling it from the browser. Deployed on Vercel.",
+    image: albionTracker,
+    tags: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+    category: "web app",
+    github: "https://github.com/Brandon-Magalhaes/albion-api",
+    webapp: "https://albion-tracker.vercel.app",
+  },
+  {
+    id: 1,
     title: "Product Catalog",
     description:
-      "I developed the Product Catalog project as part of a technical test to join a company. This project, created with Next.js, aims to demonstrate my skills in modern frontend technologies. The Product Catalog is an interactive product catalog integrated with a public API, where users can view a list of products, search by name, and access the details of each product. The application uses Tailwind CSS for responsive styling and React Icons for icons, highlighting my commitment to creating attractive and functional user interfaces. This project reflects my dedication to continuous learning and the pursuit of excellence in web application development.",
+      "Technical challenge built with Next.js: an interactive product catalog that consumes a public API. Users can browse the product list, search by name, and open a detail page through dynamic routes. Tailwind CSS for styling and React Icons for the interface.",
     image: catalogProduct,
-    tags: ["React", "Next", "Tailwind", "NodeJS"],
+    tags: ["Next.js", "React", "Tailwind CSS"],
     category: "web app",
     github: "https://github.com/Brandon-Magalhaes/Product-Catalog",
     webapp: "https://product-catalog-brandon.netlify.app",
   },
   {
-    id: 1,
+    id: 2,
     title: "MarketPlace",
     description:
-      "I developed a project in Next.js, called Marketplace, with the purpose of improving my skills in this technology. This project involves creating an interactive website, integrated with an API, in which users have the ability to select products and add them to a virtual cart. Although still in progress, this initiative demonstrates my commitment to continuous learning and the pursuit of excellence in web application development.",
+      "E-commerce study built with Next.js 13 (App Router) and TypeScript: product listing, cart page and Stripe client prepared for checkout. The product data is seeded locally and the payment flow is not connected to a backend.",
     image: marketPlace,
-    tags: ["React", "Next", "Html", "Css", "JavaScript"],
+    tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Stripe"],
     category: "web app",
     github: "https://github.com/Brandon-Magalhaes/Market-Place",
     webapp: "",
   },
   {
-    id: 2,
+    id: 3,
+    title: "Book Store",
+    description:
+      "MERN application to manage a book collection: create, list, view, edit and delete books with title, author and publication year. Express and MongoDB on the backend, React with Vite and Tailwind on the frontend. Built as a study project following a tutorial.",
+    image: bookStore,
+    tags: ["React", "Node.js", "Express", "MongoDB"],
+    category: "web app",
+    github: "https://github.com/Brandon-Magalhaes/MERN-Book-Store",
+    webapp: "",
+  },
+  {
+    id: 4,
     title: "Word Game",
     description:
-      "I developed a word guessing game, in which players must correctly guess the letters of a word, while being penalized for each mistake made until they reach a predefined limit. In the game, players accumulate points by matching all the letters in a word, with the score being added progressively.",
+      "Word guessing game in React: each round draws a word and a category, and the player has three tries to find the letters. Correct letters are revealed in place and wrong ones are listed until the round ends.",
     image: wordGame,
-    tags: ["React", "Html", "Css", "JavaScript"],
+    tags: ["React", "JavaScript", "CSS"],
     category: "web app",
     github: "https://github.com/Brandon-Magalhaes/Secret_Word_React",
     webapp: "https://word-game-brandon.netlify.app/",
   },
-  // {
-  //   id: 2,
-  //   title: "MERN Book Storage",
-  //   description:
-  //     "This MERN Online Livraria project is a backend-focused application that allows users to manage their book collection efficiently using MongoDB, Express, React and Node.js. With CRUD features, users can add, edit, delete and view information about each book, including book name, author name and year of publication, and can save everything to the database.",
-  //   image: counterOfLaps,
-  //   tags: ["NodeJS", "React", "Express", "JavaScript", "Cors", "MongoDB"],
-  //   category: "web app",
-  //   github: "https://github.com/Brandon-Magalhaes/MERN-Book-Store",
-  //   webapp: "https://contadorvoltas-brandon.netlify.app/",
-  // },
   {
-    id: 3,
-    title: "LETRECO",
+    id: 5,
+    title: "Letreco",
     description:
-      "I created a game Letreco, an application similar to Wordle, where players challenge themselves to guess the correct word. I played a central role in all stages of the project, from conception to implementation. This achievement represents a significant achievement in my professional journey, demonstrating my ability to independently create innovative and engaging solutions.",
+      "Wordle clone in plain JavaScript, with no framework or dependencies: six attempts of five letters, on-screen keyboard and colour feedback for each guess.",
     image: letreco,
-    tags: ["JavaScript", "Html", "Css"],
+    tags: ["JavaScript", "HTML", "CSS"],
     category: "web app",
     github: "https://github.com/Brandon-Magalhaes/Letreco",
     webapp: "https://letreco-brandon.netlify.app/",
   },
   {
-    id: 4,
-    title: "POKEDEX",
+    id: 6,
+    title: "Pokédex",
     description:
-      "I developed a JavaScript project that integrated the pokeapi API, with the main objective of acquiring knowledge about the use of APIs. During this process, I explored several fundamental concepts related to working with APIs, including HTTP requests, JSON data manipulation and integration of external services in web applications. This experience was essential for improving my development skills and demonstrates my ability to learn new technologies autonomously and effectively.",
+      "The first 151 Pokémon fetched from PokéAPI. The requests run in parallel with Promise.all and the cards are assembled with reduce, colouring each one by its main type.",
     image: pokedex,
-    tags: ["JavaScript", "Html", "Css"],
+    tags: ["JavaScript", "HTML", "CSS"],
     category: "web app",
     github: "https://github.com/Brandon-Magalhaes/Pokedex",
     webapp: "https://pokedex-brandon-portolio.netlify.app/",
   },
   {
-    id: 5,
-    title: "Mario Jump",
-    description:
-      "I developed the Mario Jump game, an interactive application where players take control of the Mario character and must jump from a green tube. The challenge is to avoid contact with the tubes, as such contact results in the player's defeat.",
-    image: marioJump,
-    tags: ["JavaScript", "Html", "Css"],
-    category: "web app",
-    github: "https://github.com/Brandon-Magalhaes/Mario-Jump",
-    webapp: "https://mario-jump-brandon.netlify.app/",
-  },
-  {
-    id: 6,
-    title: "TODO LIST",
-    description:
-      "As one of my first projects, I developed a to-do list app that allows users to add, delete, and mark tasks as completed. This project was an initial opportunity to apply my knowledge in software development and improve my technical skills.",
-    image: toDoList,
-    tags: ["JavaScript", "Html", "Css"],
-    category: "web app",
-    github: "https://github.com/Brandon-Magalhaes/ToDoList",
-    webapp: "https://todolist-brandon.netlify.app/",
-  },
-  {
     id: 7,
     title: "Arrays Methods",
-    // date: "",
     description:
-      "I developed a website with the aim of improving my practical skills in main front-end technologies. I used advanced methods, objects and programming techniques to implement features such as adding users randomly, managing balances, doubling money, applying filters, sorting data and calculating totals. This project provided me with a dynamic and practical learning environment, where I was able to explore and apply essential web development concepts in a deep and effective way.",
+      "Page that demonstrates JavaScript array methods on live data from randomuser.me: map to double values, filter for millionaires, sort by wealth and reduce to calculate the total.",
     image: arrayMethods,
-    tags: ["Html", "Css", "JavaScript"],
+    tags: ["JavaScript", "HTML", "CSS"],
     category: "web app",
     github: "https://github.com/Brandon-Magalhaes/Array_Methods",
     webapp: "https://arraymethodsforportfolio.netlify.app/",
-    // member: [
-    //   {
-    //     name: "Brandon Magalhães",
-    //     img: "",
-    //     linkedin: "",
-    //     github: "",
-    //   },
-    //   {
-    //     name: "Nathália Magalhães",
-    //     img: "",
-    //     linkedin: "",
-    //     github: "",
-    //   },
-    // ],
   },
 ];

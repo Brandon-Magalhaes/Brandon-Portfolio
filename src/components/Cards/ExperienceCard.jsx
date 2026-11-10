@@ -85,6 +85,27 @@ const Image = styled.img`
     }
 `
 
+const Monogram = styled.div`
+    height: 50px;
+    width: 50px;
+    min-width: 50px;
+    border-radius: 10px;
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: linear-gradient(135deg, #854CE6, #306EE8);
+    @media only screen and (max-width: 768px){
+        height: 40px;
+        width: 40px;
+        min-width: 40px;
+        font-size: 16px;
+    }
+`
+
 const Body = styled.div`
     width: 100%;
     display: flex;
@@ -148,7 +169,10 @@ const ExperienceCard = ({ experience }) => {
     return (
         <Card>
             <Top>
-                <Image src={experience.img} />
+                {experience.img
+                    ? <Image src={experience.img} alt={experience.company} />
+                    : <Monogram>{experience.company.charAt(0)}</Monogram>
+                }
                 <Body>
                     <Role>{experience.role}</Role>
                     <Company>{experience.company}</Company>

@@ -6,8 +6,6 @@ import wordGame from "../images/JogoDePalavras.png";
 // import counterOfLaps from "/home/brand/websites/react/porfoliobrandon/src/images/ContadorDeVoltas.png";
 import letreco from "../images/Letreco.png";
 import pokedex from "../images/Pokedex.png";
-import toDoList from "../images/TODOList.png";
-import marioJump from "../images/MarioJump.png";
 import catalogProduct from "../images/catalogProduct.png";
 import albionTracker from "../images/AlbionTracker.png";
 import bookStore from "../images/BookStore.png";
